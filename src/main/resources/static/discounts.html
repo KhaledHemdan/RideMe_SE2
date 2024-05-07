@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Management</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="admin.html">Admin Dashboard</a>
+            <!-- Add more links as needed -->
+        </nav>
+    </header>
+
+    <div class="background"></div>
+
+    <div class="container">
+        <div class="content">
+            <h2 class="logo">Discount Management</h2>
+
+            <!-- Discount Management Content -->
+            <div class="discounts-info">
+                <h3>Current Discounts</h3>
+                <!-- Display current discounts here -->
+                <ul>
+                    <li>Discount 1</li>
+                    <li>Discount 2</li>
+                    <li>Discount 3</li>
+                    <!-- Add more discounts as needed -->
+                </ul>
+
+                <!-- Add form for adding/editing discounts -->
+                <form action="#" class="discount-form">
+                    <h3>Add/Edit Discount</h3>
+                    <label for="discount-name">Discount Name:</label>
+                    <input type="text" id="discount-name" name="discount-name" required>
+
+                    <label for="discount-amount">Discount Amount:</label>
+                    <input type="number" id="discount-amount" name="discount-amount" required>
+
+                    <button type="submit">Add/Edit Discount</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
